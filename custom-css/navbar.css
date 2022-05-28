@@ -1,0 +1,43 @@
+:root
+{   
+    --light-blue: rgb(230, 240, 250);
+    --medium-blue: rgb(120,150,200);
+    --dark-blue: rgb(10,50,100);
+}
+
+body
+{
+    background-color: var(--light-blue);
+}
+
+.bg-dark-blue
+{
+    background-color: var(--dark-blue);
+    box-shadow: 5px 10px 20px rgb(0, 0, 0) inset;
+}
+
+.bg-medium-blue
+{
+    background-color: var(--medium-blue);
+}
+
+.logo
+{
+    max-height: 60px;
+    border-radius: 50%;
+}
+
+.text-color-light-blue
+{
+    color: var(--light-blue);
+}
+
+.text-color-light-blue:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.flag-img
+{
+    max-height: 30px;
+}

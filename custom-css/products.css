@@ -1,0 +1,18 @@
+.card-header
+{
+    width: 90vw;
+    box-shadow: 5px 0px 10px #888888;
+    background-color: white;
+}
+
+.card-body
+{
+    width: 90vw;
+    box-shadow: 5px 10px 10px #888888;
+    background-color: white;
+}
+
+.product-img
+{
+    object-fit: cover;
+}

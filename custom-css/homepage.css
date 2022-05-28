@@ -1,0 +1,106 @@
+.video-container
+{
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+}
+
+.video
+{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.heading
+{
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+    animation-name: scale-up;
+    animation-duration: 2s;  
+    animation-fill-mode: both;
+}
+  
+@keyframes scale-up {
+    from {transform: scale(0,0)}
+    to {transform: scale(1, 1)}
+}
+
+.bg-dark-blue-noshadow
+{
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+}
+
+.bg-dark-blue-noshadow:hover
+{
+    color: white;
+}
+
+
+/* desktop */
+@media only screen and (min-width: 1201px)
+{
+    .card
+    {
+        width: 40vw;
+    }
+}
+
+/* tablet*/
+@media only screen and (max-width: 1200px)
+{
+    .card
+    {
+        width: 40vw;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 767px)
+{
+    .card
+    {
+        width: 95vw;
+        margin: auto;
+    }
+}
+
+.carousel
+{
+    box-shadow: 5px 10px 10px grey;
+}
+
+.carousel-img
+{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: fit-content;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card
+{
+    box-shadow: 5px 10px 10px grey;
+}

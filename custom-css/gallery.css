@@ -1,0 +1,21 @@
+.gallery-img
+{
+    height: 20vh;
+    width: 35vh;
+    margin-top: 1vh;
+    object-fit: cover;
+}
+
+.gallery-img:hover
+{
+    box-shadow: 5px 10px 18px #888888;
+}
+
+/* desktop */
+@media only screen and (min-width: 1201px)
+{
+    .gallery-img
+    {
+        width: 30vh;
+    }
+}
